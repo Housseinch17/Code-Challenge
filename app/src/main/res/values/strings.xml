@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="english_news">English news</string>
+    <string name="arabic_news">Arabic news</string>
+    <string name="contact">Contact us</string>
+    <string name="album">Album</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

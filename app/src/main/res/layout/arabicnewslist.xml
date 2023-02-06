@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:orientation="vertical"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_5sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearlayout2"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_weight="3"
+            android:clickable="false"
+            android:paddingEnd="@dimen/_10sdp"
+
+            >
+
+
+            <TextView
+                android:id="@+id/arabicName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:text="Name"
+                android:textColor="@color/purple_500"
+                android:textSize="@dimen/_12ssp" />
+
+            <TextView
+                android:id="@+id/arabicTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/arabicName"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:maxHeight="@dimen/_60sdp"
+                android:paddingEnd="@dimen/_5sdp"
+                android:scrollbars="horizontal"
+                android:text="egated from sourceegated from sources all over the world by Google"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/arabicDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/arabicTitle"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:text="Date"
+                android:textSize="@dimen/_12ssp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/arabicImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher_background"
+
+            />
+    </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearlayout2"
+            android:layout_alignParentStart="true"
+            android:id="@+id/arabicDrawable"
+            android:src="@drawable/ic_baseline_arrow_downward_24"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearlayout2"
+            android:layout_toRightOf="@id/arabicDrawable"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:text="descriptionn"
+            android:id="@+id/arabicDescription"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:textColor="@color/black"
+            android:maxHeight="@dimen/_100sdp"
+            android:textSize="@dimen/_10ssp"
+            android:scrollbars="vertical"
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

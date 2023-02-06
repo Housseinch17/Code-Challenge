@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <group
+        >
+    <item
+        android:title="@string/english_news"
+        android:id="@+id/englishNewsFragment"
+        android:icon="@drawable/englishnews"
+        />
+    <item
+        android:title="@string/arabic_news"
+        android:id="@+id/arabicNewsFragment"
+        android:icon="@drawable/arabicnews"
+        />
+    <item
+        android:title="@string/album"
+        android:id="@+id/albumFragment"
+        android:icon="@drawable/album"
+        />
+    </group>
+
+    <item
+        android:title="Others"
+
+        >
+        <menu>
+            <item
+        android:title="@string/contact"
+        android:id="@+id/contactFragment"
+        android:icon="@drawable/contact"
+            />
+        </menu>
+    </item>
+
+</menu>
